@@ -1,0 +1,6 @@
+"invoice_id","vendor","amount","currency","invoice_date","po_number","issues"
+"5002","ACME",NULL,"USD","4/11/21","124","MISSINGAMOUNT; BAD_DATE_FORMAT;"
+"5003",NULL,"720","EUR","20210412",NULL,"DUPLICATE_ID; MISSING_VENDOR; BAD_DATE_FORMAT; MISSING_PO;"
+"5003","ACME","430","USD","2021-04-12","125","DUPLICATE_ID;"
+"5004","SupplierX","-50","GBP","2021-05-01","126","NEGATIVE_AMOUNT;"
+"5005","VendorY","100","CAD","2021-06-15","127","INVALID_CURRENCY;"
